@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+    <title>HTML + CSS</title>
+    </head>
+<body> 
+    <form class="form">
+        <div class="form__header">
+                <h1 align="center"> Выбор отеля </h1><hr/>
+        </div>
+
+        <div class="form__body">
+         <div class="form__col">
+          <div class="form__group">
+            <label for="first-name">имя</label><br/>
+            <input 
+            type="text" 
+            name="first-name" 
+            id="first-name" 
+            class="form__control"
+            placeholder="имя"
+            />
+
+            </div>
+            <div class="form__col">
+                <label for="last-name">фамилия</label><br/>
+                <input 
+                type="text" 
+                name="last-name" 
+                id="last-name" 
+                class="form__control"
+                placeholder="фамилия"
+                />
+            </div>
+
+        <div class="form__group">
+           <label for="adress">отчество </label><br/>
+            <input
+            type="text"
+            name="patronymic"
+            id="patronymic"
+            class="form__control"
+            placeholder="отчество"
+          />
+        </div>
+
+          <div class="form__group">
+            <select class="select-css">
+                <option value="s0">выберите звезды у отеля </option>
+                <option value="s1">1 звезда</option>
+                <option value="s2">2 звезды</option>
+                <option value="s3">3 звезды</option>
+                <option value="s4">4 звезды</option>
+                <option value="s5">5 звёзд</option>
+            </select>
+         </div>
+         <div class="form__group">
+            <label for="transformation">есть ли животные </label><br/>
+            <input 
+                type="radio"
+                name="answer"
+                value="yes">
+                да
+            <input 
+                type="radio"
+                name="answer" 
+                value="no">
+                нет
+        </div>
+        </div>     
+    </div>           
+        
+
+    <div class="form__body">
+        <div class="form__col">
+         <div class="form__group">
+
+         <div>  
+            <label for="date">дата рождения</label><br/>
+            <input
+                type="date"
+                name="birth"
+                class="form__control"
+                />
+        </div>   
+
+            <div class="form__group">
+              <label for="bio">пожелания в номер</label><br />
+              <textarea
+                name="bio"
+                id="bio"
+                cols="30"
+                rows="10"
+                class="form__control form__control--grow"
+              ></textarea>
+            </div>
+        <div class="form__group">
+            <label for="estimation">сколько людей будет от 1 до 20</label><br/>
+            <input
+                type="number"
+                min="1"
+                max="20"
+                value="1"
+                step="1"
+                class="form__control"
+                />
+          </div>
+          <div class="form__group">
+            <label for="estimation">на сколько дней заселение</label><br/>
+            <input
+                type="number"
+                min="1"
+                max="1000"
+                value="1"
+                step="1"
+                class="form__control"
+                />
+          </div>
+         </div>   
+        </div> 
+    </div> 
+    
+         
+        <button type="submit" class="form__submit">
+        Отправить
+      </button>
+    </form>
+</body>
+</html>
+

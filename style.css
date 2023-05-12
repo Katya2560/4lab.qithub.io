@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"Comic Sans MS", "Comic Sans", cursive;
+  font-size: 16px;
+  background-image: url("78956.jpg");
+  background-position: center center;      
+  background-repeat: no-repeat;      
+  background-attachment: fixed;      
+  background-size: cover;      
+  background-color: #236b35;
+  color: #000000;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+  border-radius: 10% / 50%;
+  display:compact;
+  width: 1028px;
+  padding: 60px;
+  opacity: 0.9;
+}
+.form__header {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.form__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.form__group {
+  margin-bottom: 30px;
+}
+.form__control--grow {
+    height: 100px !important;
+    display: table-row ;
+  }
+.form__control {
+  background: #fffffffc;
+  border: 1px solid #0070f8;
+  border-radius: 6px;
+  padding: 8px;
+  height: 50px;
+  min-width: 295px;
+}
+.form__checkbox {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 25px; 
+}
+.form__checkbox input {
+  display: none;
+}
+.form__checkbox input[type="checkbox"]:checked ~ .form__checkbox--label::before {
+  background: #3f49ffc9 !important;
+}
+.form__checkbox--label::before {
+  content: "";
+  margin-right: 8px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #d2d6db;
+  vertical-align: middle;
+}
+.form__submit {
+  padding: 16px 24px;
+  font-family:"Comic Sans MS", "Comic Sans", cursive;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(334, 10%, 14%);
+  border: 1px solid hsl(321, 10%, 89%);
+  background-color: #0070f8;
+  border-radius: 6px;
+  display: flex;
+  cursor: pointer;
+  margin-left: auto;
+}
+.select-css { 
+  display: flex; 
+  font-size: 16px; 
+  font-family: "Comic Sans MS", "Comic Sans", cursive; 
+  background: #fffffffc;
+  border: 1px solid #b8d7fc;
+  border-radius: 6px;
+  padding: 8px;
+  height: 40px;
+  min-width: 295px;
+}
