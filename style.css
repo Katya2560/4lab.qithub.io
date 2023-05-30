@@ -7,9 +7,9 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family:"Comic Sans MS", "Comic Sans", cursive;
+  font-family: Didot, serif ;
   font-size: 16px;
-  background-image: url("78956.jpg");
+  background-image: url("фон.jpg");
   background-position: center center;      
   background-repeat: no-repeat;      
   background-attachment: fixed;      
@@ -49,7 +49,7 @@ body {
   }
 .form__control {
   background: #fffffffc;
-  border: 1px solid #0070f8;
+  border: 1px solid #052752;
   border-radius: 6px;
   padding: 8px;
   height: 50px;
@@ -74,7 +74,7 @@ body {
   height: 16px;
   border-radius: 6px;
   background: #ffffff;
-  border: 1px solid #d2d6db;
+  border: 1px solid #052752;
   vertical-align: middle;
 }
 .form__submit {
@@ -82,7 +82,7 @@ body {
   font-family:"Comic Sans MS", "Comic Sans", cursive;
   font-size: 16px;
   font-weight: 500;
-  color: hsl(334, 10%, 14%);
+  color: hsl(0, 0%, 100%);
   border: 1px solid hsl(321, 10%, 89%);
   background-color: #0070f8;
   border-radius: 6px;
@@ -95,7 +95,7 @@ body {
   font-size: 16px; 
   font-family: "Comic Sans MS", "Comic Sans", cursive; 
   background: #fffffffc;
-  border: 1px solid #b8d7fc;
+  border: 1px solid #052752;
   border-radius: 6px;
   padding: 8px;
   height: 40px;
